@@ -11,3 +11,21 @@ Created on Sun May  4 07:45:51 2025
 
 # Ignore all directories starting with a dot
 .*/
+
+# all hidden files
+.*/*
+
+# Bytecode files
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+venv/
+.env/
+.venv/
+
+# IDE/editor files
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
